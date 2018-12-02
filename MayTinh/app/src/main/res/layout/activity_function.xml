@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/SoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SoB"
+        android:ems="10"
+        android:hint="@string/SoC"
+        android:inputType="text|number|numberDecimal"
+        android:textAlignment="textEnd"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/SoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="@string/SoA"
+        android:inputType="text|numberDecimal"
+        android:phoneNumber="true"
+        android:textAlignment="textEnd" />
+
+    <EditText
+        android:id="@+id/SoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SoA"
+        android:ems="10"
+        android:hint="@string/SoB"
+        android:inputType="text|numberDecimal"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/optionpt2"
+        android:textAlignment="center"
+        android:textColor="#c3bf2e"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Kqpt2"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/LbKetquapt2"
+        android:layout_alignParentStart="true"
+        android:text="@string/Kq"
+        android:textColor="#d10f22"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LbKetquapt2"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="201dp"
+        android:textColor="#ff6468"
+        android:textAlignment="viewEnd"
+        android:background="#2f3525" />
+
+    <Button
+        android:id="@+id/Tinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/SoC"
+        android:text="@string/Tinh" />
+
+</RelativeLayout>
+
+
+
+

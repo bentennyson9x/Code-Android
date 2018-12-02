@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5d584bff89e8848eb7f824d89115e548\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0ee728ab5c0aef75787432da46e9abb4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ea5d0fd9de083efcfb9ed7fc9808672c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0c3a08a3f86de4bb12454738598dff2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\195b092785446097f6f79edfd1479f0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaf283ff13b2d4c10671c0633536163b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e031401060e3772da565015a29571712\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\137094d43fff9c7097844baf24de0950\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b89b382f162a6289f027a1c909ab6398\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\908b8a3db7ba904fc415649da53ad008\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4ee307478b038ffea30a3a9cd1b62834\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ee85e95c253d07f96b8b43ec81e1c7d2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0dde205f5d3546c0f0e74d87279c7bfa\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0ee728ab5c0aef75787432da46e9abb4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0ee728ab5c0aef75787432da46e9abb4\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.minhvufc.bkapdemonewview.MainActivity
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5d584bff89e8848eb7f824d89115e548\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5d584bff89e8848eb7f824d89115e548\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0ee728ab5c0aef75787432da46e9abb4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0ee728ab5c0aef75787432da46e9abb4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ea5d0fd9de083efcfb9ed7fc9808672c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ea5d0fd9de083efcfb9ed7fc9808672c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0c3a08a3f86de4bb12454738598dff2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0c3a08a3f86de4bb12454738598dff2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\195b092785446097f6f79edfd1479f0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\195b092785446097f6f79edfd1479f0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaf283ff13b2d4c10671c0633536163b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaf283ff13b2d4c10671c0633536163b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e031401060e3772da565015a29571712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e031401060e3772da565015a29571712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\137094d43fff9c7097844baf24de0950\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\137094d43fff9c7097844baf24de0950\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b89b382f162a6289f027a1c909ab6398\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b89b382f162a6289f027a1c909ab6398\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\908b8a3db7ba904fc415649da53ad008\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\908b8a3db7ba904fc415649da53ad008\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4ee307478b038ffea30a3a9cd1b62834\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4ee307478b038ffea30a3a9cd1b62834\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ee85e95c253d07f96b8b43ec81e1c7d2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ee85e95c253d07f96b8b43ec81e1c7d2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0dde205f5d3546c0f0e74d87279c7bfa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saint\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0dde205f5d3546c0f0e74d87279c7bfa\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saint\AndroidStudioProjects\BkapDemoNewView\app\src\main\AndroidManifest.xml

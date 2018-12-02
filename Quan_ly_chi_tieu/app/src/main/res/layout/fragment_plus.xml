@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#e75454"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:id="@+id/Header"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:src="@drawable/refresh" />
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/background_spinner_dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8.4"
+            android:id="@+id/luaChonPlus"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            ></android.support.v7.widget.AppCompatSpinner>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:background="@android:color/transparent"
+            android:src="@drawable/statistic" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Header"
+        android:id="@+id/displayFragment_Plus"
+        >
+    </FrameLayout>
+</RelativeLayout>

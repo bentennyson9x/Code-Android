@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/khung_spinner_luachon"
+    >
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temp"
+            android:layout_marginVertical="10dp"
+            android:layout_centerVertical="true"
+            android:ellipsize="marquee"
+            android:textSize="17sp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:id="@+id/text_spinner_select"
+            />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radLinear"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkLinear"
+            android:text="Linear" />
+
+        <RadioButton
+            android:id="@+id/radGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkGrid"
+            android:text="Grid" />
+
+        <RadioButton
+            android:id="@+id/radStagered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkStagered"
+            android:text="Stagered" />
+    </RadioGroup>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvFood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/control"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

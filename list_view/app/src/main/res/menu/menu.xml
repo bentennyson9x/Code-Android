@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/caidat"
+    android:title="Cài đặt"
+    android:icon="@android:drawable/btn_star"
+    app:showAsAction="always"
+    >
+    <menu>
+        <item android:title="Âm thanh"
+            android:id="@+id/caidatamthanh"
+            ></item>
+        <item android:title="Hình ảnh"
+            android:id="@+id/caidathinhanh"
+            ></item>
+        <item android:title="AI"
+            android:id="@+id/caidatAI"
+            ></item>
+        <item android:title="SFX"
+            android:id="@+id/caidatSFX"
+            ></item>
+
+
+    </menu>
+
+</item>
+
+<item android:id="@+id/huongdan"
+    android:title="Hướng dẫn"
+    android:icon="@android:drawable/btn_star"
+    ></item>
+
+<item android:id="@+id/lienhe"
+    android:title="Liên hệ"
+    android:icon="@android:drawable/btn_star"
+    ></item>
+
+<item android:id="@+id/chitiet"
+    android:title="Chi tiết"
+    android:icon="@android:drawable/btn_star"
+    ></item>
+
+
+</menu>

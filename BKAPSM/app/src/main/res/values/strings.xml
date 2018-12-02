@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BKAP-SM</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity__sinh_vien">Activity_SinhVien</string>
+</resources>

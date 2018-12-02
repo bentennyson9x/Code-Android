@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet2"
+            android:title="Wallet"
+            />
+        <item
+            android:id="@+id/nav_plus"
+            android:icon="@drawable/plus"
+            android:title="Plus" />
+        <item android:id="@+id/nav_pay"
+            android:icon="@drawable/minus"
+            android:title="Pay"></item>
+        <item android:id="@+id/nav_collect"
+            android:icon="@drawable/plus_money"
+            android:title="Income Money"></item>
+        <item android:id="@+id/nav_tranfer"
+            android:icon="@drawable/tranfer_money"
+            android:title="Tranfer Money"></item>
+        <item android:id="@+id/nav_balanceAdjustment"
+            android:icon="@drawable/edit"
+            android:title="Balance Adjustment"></item>
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@drawable/fiance"
+            android:title="Finance" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

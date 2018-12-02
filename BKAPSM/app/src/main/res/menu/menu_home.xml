@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Trang chủ"
+    android:id="@+id/menu_Trang_chu_home"
+    ></item>
+    <item android:title="Đăng ký học"
+    android:id="@+id/menu_dang_ky_hoc_home"
+    ></item>
+    <item android:title="Quản lý lớp"
+    android:id="@+id/menu_quan_ly_lop_home"
+    ></item>
+    <item android:title="Tìm kiếm"
+    android:id="@+id/menu_tim_kiem_home"
+    ></item>
+</menu>

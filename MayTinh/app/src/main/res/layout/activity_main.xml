@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Manhinh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/sothunhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sothuhai"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-155dp"
+        android:ems="10"
+        android:hint="@string/so_thu_nhat"
+        android:inputType="text|number|numberDecimal"
+        android:password="false"
+        android:phoneNumber="false"
+        android:textAlignment="textEnd"
+        android:textIsSelectable="false" />
+
+    <EditText
+        android:id="@+id/sothuhai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="@string/so_thu_hai"
+        android:inputType="text|number|numberDecimal"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/TiTleMayTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/m_y_t_nh"
+        android:textAlignment="center"
+        android:textColor="#c3bf2e"
+        android:textIsSelectable="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btncong"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223dp"
+        android:drawableTop="@drawable/plusbtn" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btncong"
+        android:layout_marginStart="98dp"
+        android:drawableTop="@drawable/minusbtn" />
+
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btncong"
+        android:drawableTop="@drawable/dividebtn" />
+
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btncong"
+        android:layout_marginEnd="98dp"
+        android:drawableTop="@drawable/multiplybtn" />
+
+    <TextView
+        android:id="@+id/Lbketqua"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Kq"
+        android:background="#2f3525"
+        android:textAlignment="textEnd"
+        android:textColor="#ff6468"
+        />
+
+
+    <TextView
+        android:id="@+id/Kq"
+        android:layout_width="135dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btncong"
+        android:text="@string/Kq"
+        android:textAlignment="center"
+        android:textColor="#d10f22"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/optionbnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Lbketqua"
+        app:srcCompat="@drawable/settingbtn" />
+
+    <TextView
+        android:id="@+id/optionpt2"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Lbketqua"
+        android:paddingTop="8dp"
+        android:text="@string/optionpt2"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>

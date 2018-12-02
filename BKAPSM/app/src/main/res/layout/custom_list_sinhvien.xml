@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#919191"
+        ></View>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="JAVA"
+            android:id="@+id/ten_mon_hoc"
+            android:background="@drawable/lop"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            >
+            <TextView
+                android:scaleX="1.2"
+                android:text="Nguyễn Công Phượng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/ten_display_list"
+                android:textSize="15sp"
+                />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/male"
+                    android:id="@+id/gender_display_list"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0913384993"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:id="@+id/sdt_display_list"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="saintsmiles2210@gmail.com"
+                        android:textSize="13sp"
+                        android:id="@+id/email_display_list"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </TableRow>
+
+        </LinearLayout>
+    </TableRow>
+
+</LinearLayout>

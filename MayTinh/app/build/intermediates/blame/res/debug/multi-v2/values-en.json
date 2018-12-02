@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hp\\AndroidStudioProjects\\MayTinh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp\\AndroidStudioProjects\\MayTinh\\app\\src\\main\\res\\values-en\\string.xml",
+                    "from": {
+                        "startLines": "7,9,10,11,3,6,8,5,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "265,361,409,457,59,216,304,162,108",
+                        "endColumns": "37,46,46,46,47,47,55,52,52",
+                        "endOffsets": "298,403,451,499,102,259,355,210,156"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,140,187,234,282,330,386,439",
+                        "endColumns": "37,46,46,46,47,47,55,52,52",
+                        "endOffsets": "88,135,182,229,277,325,381,434,487"
+                    }
+                }
+            ]
+        }
+    ]
+}

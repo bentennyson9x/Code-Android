@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="20dp"
+    >
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minus"
+            android:id="@+id/icon_spinner_select"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temp"
+            android:ellipsize="marquee"
+            android:textSize="17sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/icon_spinner_select"
+            android:id="@+id/text_spinner_select"
+            />
+
+    </TableRow>
+</RelativeLayout>

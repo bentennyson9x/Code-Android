@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="so_thu_nhat">First Number</string>
+    <string name="so_thu_hai">Second Number</string>
+    <string name="m_y_t_nh">Calculator</string>
+    <string name="Kq">Result</string>
+    <string name="optionpt2">Sovle Ax^2+Bx+C=0</string>
+    <string name="SoA">Input Number A</string>
+    <string name="SoB">Input Number B</string>
+    <string name="SoC">Input Number C</string>
+</resources>

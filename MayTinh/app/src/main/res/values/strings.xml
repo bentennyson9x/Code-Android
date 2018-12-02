@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MayTinh</string>
+    <string name="so_thu_nhat">So thu nhat</string>
+    <string name="so_thu_hai">So thu hai</string>
+    <string name="m_y_t_nh">Máy Tính</string>
+    <string name="Kq">Kết Quả</string>
+    <string name="optionpt2">Giải Ax^2+Bx+C=0</string>
+    <string name="SoA">Nhập số A</string>
+    <string name="SoB">Nhập số B</string>
+    <string name="SoC">Nhập số C</string>
+    <string name="Tinh">=</string>
+</resources>
