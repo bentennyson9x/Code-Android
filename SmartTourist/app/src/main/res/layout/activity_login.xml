@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1000"
+    tools:context="com.example.smarttourist.Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="300"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Smart Tourist"
+        android:textColor="#c6414040"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoMainactivity"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/money" />
+
+    <TableRow
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="8"
+        android:background="@drawable/khung_sign_in"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iconUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/user_icon" />
+
+        <EditText
+            android:id="@+id/User_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:hint="User Name"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/khung_sign_in"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iconPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/key_icon" />
+
+        <EditText
+            android:id="@+id/Password_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+    </TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="30"
+        android:text="Sign In"
+        android:layout_marginHorizontal="120dp"
+        android:id="@+id/SignIn_button"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_anim"
+        />
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            android:id="@+id/RememberMe"
+            android:layout_below="@+id/SignIn_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:text="forgot Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#c6414040"
+            android:background="@android:color/transparent"
+            />
+        <View android:layout_height="2dp"
+            android:layout_width="30dp"
+            android:background="#767676"
+            android:id="@+id/ViewCenter"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_centerHorizontal="true"
+            ></View>
+        <Button
+            android:text="Sign Up Account"
+            android:background="@android:color/transparent"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#c6414040"
+            android:id="@+id/btnSignUpAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or you can sign in with : "
+        android:layout_below="@+id/ViewCenter"
+        android:id="@+id/oryoucansigninwith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c6414040"
+        />
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <ImageButton
+            android:background="@drawable/fb"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/google_plus"
+            android:layout_marginLeft="160dp"
+            />
+    </TableRow>
+
+</LinearLayout>

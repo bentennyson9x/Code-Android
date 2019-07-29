@@ -44,6 +44,11 @@ public class AdapterAccountMoney extends ArrayAdapter<AccountMoney> {
             viewHolder.Icon = convertView.findViewById(R.id.icon_accountMoney);
             viewHolder.amount = convertView.findViewById(R.id.amountAccountMoney);
             viewHolder.stylePay = convertView.findViewById(R.id.style_payAccountMoney);
+            convertView.setTag(viewHolder);
+        }
+        else
+        {
+            viewHolder = (viewHolder) convertView.getTag();
         }
         DecimalFormat formatter = new DecimalFormat("###,###,###");
         // can use formatter.format(//something number//);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân sự - Developed By Khoi Nguyen"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:scaleX="1.5"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điền thông tin nhân sự  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnDienThongTinNhanSu"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sắp xếp nhân sự theo các tiêu chí  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnSapXepNhanSuTheoTieuChi"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tự động phân tích nhân sự  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnTuDongPhanTichNhanSu"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn lịch và địa điểm gặp nhân sự theo mảng  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnChonLichVaDiaDiemGapNhanSu"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phân biểu lịch trình gặp  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnPhanBieuLichGap"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát chương trình  "
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btnThoatChuongTrinh"
+            />
+
+    </LinearLayout>
+</LinearLayout>

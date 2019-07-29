@@ -19,7 +19,6 @@ public class AuthorAdapter extends RecyclerView.Adapter<AuthorAdapter.IteamViewH
     private Context context;
     private ArrayList<Authors> arrayList;
     private ArrayList<Songs> listSongTemp;
-    private ArrayList<Songs> listSongs;
 
     public AuthorAdapter(Context context, ArrayList<Authors> arrayList) {
         this.context = context;
@@ -74,7 +73,7 @@ public class AuthorAdapter extends RecyclerView.Adapter<AuthorAdapter.IteamViewH
         return arrayList.size();
     }
 
-    public interface OnCliCk {
+    public interface OnCliCk { // *
         void setOnClick(int postion);
     }
 

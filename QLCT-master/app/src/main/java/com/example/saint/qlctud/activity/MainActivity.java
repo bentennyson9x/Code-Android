@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity
             if (id == R.id.nav_home) {
                 txtToolbarTitle.setText("Home");
                 fragment = new FragmentHome();
-                tag = "fragment_home";
+                tag = "fragment_home";// để tìm fragment by tag sử dụng khi một fragment muốn gọi 1 fragment khác từ trong các view của nó
             } else if (id == R.id.nav_wallet) {
                 txtToolbarTitle.setText("Wallet");
                 fragment = new FragmentWallet();

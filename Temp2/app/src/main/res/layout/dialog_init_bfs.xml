@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nhập 2 cổng kề với nhau "
+    android:textSize="35dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    />
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cổng U"
+            android:layout_marginHorizontal="60dp"
+            android:background="@drawable/frame_chip"
+            android:padding="20dp"
+            android:id="@+id/inputChipU"
+            android:layout_weight="50"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cổng V"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/frame_chip"
+            android:padding="20dp"
+            android:id="@+id/inputChipV"
+            android:layout_weight="50"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Số cạnh liên kết : "
+            android:layout_marginLeft="100dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/dialogInitSoCanhLienKet"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:id="@+id/ThemCanhChip"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác Nhận"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/XacNhanInit"
+            />
+
+    </TableRow>
+</LinearLayout>

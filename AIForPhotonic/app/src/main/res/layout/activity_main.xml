@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulator"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="30dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/chip1"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong1"
+                                android:text="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong2"
+                                android:text="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong4"
+                                android:text="4"
+                                android:layout_marginRight="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginRight="170dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:paddingHorizontal="10dp"
+                                    android:text="5" />
+
+                                <CheckBox
+                                    android:id="@+id/cong6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:paddingHorizontal="10dp"
+                                    android:text="6" />
+
+                                <CheckBox
+                                    android:id="@+id/cong7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:paddingHorizontal="10dp"
+                                    android:text="7" />
+
+                                <CheckBox
+                                    android:id="@+id/cong8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingHorizontal="10dp"
+                                    android:text="8" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="15dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong13"
+                                    android:text="13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong14"
+                                    android:text="14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong15"
+                                    android:text="15"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong16"
+                                    android:text="16"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="5dp">
+
+                            <CheckBox
+                                android:id="@+id/cong9"
+                                android:text="9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong10"
+                                android:text="10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong11"
+                                android:text="11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong12"
+                                android:text="12"
+                                android:layout_marginRight="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip2"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong17"
+                                android:text="17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong18"
+                                android:text="18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong19"
+                                android:text="19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong20"
+                                android:text="20"
+                                android:layout_marginRight="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="160dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:text="21"
+                                    android:id="@+id/cong21"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong22"
+                                    android:text="22"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong23"
+                                    android:text="23"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong24"
+                                    android:paddingHorizontal="5dp"
+                                    android:text="24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong25"
+                                    android:text="25"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong26"
+                                    android:text="26"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong27"
+                                    android:text="27"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong28"
+                                    android:text="28"
+                                    android:paddingHorizontal="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong29"
+                                android:text="29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong30"
+                                android:text="30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong31"
+                                android:text="31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong32"
+                                android:text="32"
+                                android:layout_marginRight="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip3"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong33"
+                                android:text="33"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong34"
+                                android:text="34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong35"
+                                android:text="35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="25dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong36"
+                                android:text="36"
+                                android:layout_marginRight="25dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginRight="170dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong37"
+                                    android:text="37"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong38"
+                                    android:text="38"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong39"
+                                    android:text="39"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong40"
+                                    android:text="40"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong41"
+                                    android:text="41"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong42"
+                                    android:text="42"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong43"
+                                    android:text="43"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong44"
+                                    android:text="44"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong45"
+                                android:text="45"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong46"
+                                android:text="46"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong47"
+                                android:text="47"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong48"
+                                android:text="48"
+                                android:layout_marginRight="25dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/chip4"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong49"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong50"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong51"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong52"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong53"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong54"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong55"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong56"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong57"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong58"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong59"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong60"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong61"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong62"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong63"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong64"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip5"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong65"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong66"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong67"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong68"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong69"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong70"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong71"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong72"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong73"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong74"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong75"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong76"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong77"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong78"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong79"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong80"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip6"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong81"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong82"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong83"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong84"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong85"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong86"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong87"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong88"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong89"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong90"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong91"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong92"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong93"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong94"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong95"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong96"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/chip7"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong97"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong98"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong99"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong100"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong101"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong102"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong103"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong104"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc27"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong105"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong106"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong107"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong108"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong109"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong110"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong111"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong112"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip8"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong113"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong114"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong115"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong116"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong117"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong118"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong119"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong120"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong121"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong122"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong123"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong124"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong125"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong126"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong127"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong128"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chip9"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame_chip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:id="@+id/cuc33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong129"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong130"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong131"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong132"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/cuc34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="200dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong133"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong134"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong135"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong136"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cuc35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/frame_chip"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <CheckBox
+                                    android:id="@+id/cong137"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong138"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong139"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/cong140"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/cuc36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/frame_chip"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <CheckBox
+                                android:id="@+id/cong141"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong142"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong143"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="30dp" />
+
+                            <CheckBox
+                                android:id="@+id/cong144"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    >
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:text="Bắt đầu:"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:padding="10dp"
+                        android:paddingHorizontal="20dp"
+                        android:id="@+id/ActivityMainInputBatdau"
+                        />
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Kết thúc:"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/frame_chip"
+                        android:padding="10dp"
+                        android:paddingHorizontal="20dp"
+                        android:id="@+id/ActivityMainInputKetthuc"
+                        />
+
+                </TableRow>
+
+               <TableRow
+                   android:layout_height="wrap_content"
+                   android:layout_width="match_parent"
+                   android:layout_marginVertical="40dp"
+                   android:gravity="center"
+                   >
+                   <Button
+                       android:id="@+id/mainActivityInput"
+                       android:layout_width="150dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/frame_button"
+                       android:text="Input" />
+                   <Button
+                       android:id="@+id/mainActivityBFS"
+                       android:layout_width="150dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/frame_button"
+                       android:layout_marginLeft="20dp"
+                       android:text="Start" />
+
+               </TableRow>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>
